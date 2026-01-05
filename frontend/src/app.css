@@ -1,9 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-    --color-primary: #e0c58f;
-    --color-background: #112250;
-    --color-background-variant: #3c507d;
-    --color-text: #f5f0e9;
-    --color-text-variant: #D9CBC2;
+    --color-primary: #075056;
+    --color-background: #16232a;
+    --color-text: #e4eef0;
+    --color-secondary: #f37f2d;
+}
+
+@layer base {
+    body {
+        @apply bg-background text-text;
+        font-family: 'Montserrat', sans-serif;
+    }
 }
